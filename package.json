@@ -1,5 +1,5 @@
 {
-  "name": "react-tools",
+  "name": "@benchling/react-tools",
   "description": "A set of complementary tools to React, including the JSX transformer.",
   "version": "0.13.4-hotfix0",
   "keywords": [
