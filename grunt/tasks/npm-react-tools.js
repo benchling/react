@@ -48,8 +48,8 @@ function packRelease() {
       cwd: 'build/'
     }
   };
-  grunt.util.spawn(spawnCmd, function() {
-    var buildSrc = 'build/react-tools-' + grunt.config.data.pkg.version + '.tgz';
+  grunt.util.spawn(spawnCmd, function(err, out) {
+    var buildSrc = 'build/' + out;
     var buildDest = 'build/react-tools.tgz';
     fs.rename(buildSrc, buildDest, done);
   });
