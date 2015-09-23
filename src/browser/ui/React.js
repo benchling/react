@@ -143,6 +143,6 @@ if (__DEV__) {
   }
 }
 
-React.version = '0.13.3';
+React.version = '0.13.4-hotfix0';
 
 module.exports = React;
