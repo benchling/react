@@ -1,3 +1,13 @@
+## 0.13.4-hotfix0 (September 22, 2015)
+Note: This isn't the official v0.13.4 release, but merely v0.13.3 with a hotfix for the listed bug fixes.
+
+### React Core
+
+#### Bug Fixes
+
+* Fix ReactDOMSelection to avoid erroring on Firefox's anonymous divs.
+
+
 ## 0.13.3 (May 8, 2015)
 
 ### React Core
